@@ -72,7 +72,7 @@ export default function ProductDetail() {
         <Breadcrumb items={["Home", match.gender || "Collection", p.category, p.name]} />
 
         <div className="grid lg:grid-cols-2 gap-64 mt-32">
-          <ProductGallery images={p.images} />
+          <ProductGallery images={p.images} fallback={match.image} />
 
           <div>
             <p className="text-tiny uppercase tracking-[0.1em] text-muted">{p.category}</p>
@@ -147,10 +147,18 @@ export default function ProductDetail() {
 
       {/* Lifestyle Images */}
       <div className="content-container grid grid-cols-1 sm:grid-cols-2 gap-16 pb-120">
-        {p.images.slice(0, 2).map((img) => (
-          <div key={img} className="rounded-img overflow-hidden bg-beige flex items-center justify-center max-h-[500px]">
-            <img src={img} alt="" loading="lazy" decoding="async" className="w-full h-auto max-h-[500px] object-contain" />
-          </div>
+        {p.images.slice(0, 2).map((img, i) => (
+          <img
+            key={img + i}
+            src={img}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            className="rounded-img w-full h-auto"
+            onError={(e) => {
+              if (e.target.src !== match.image) e.target.src = match.image;
+            }}
+          />
         ))}
       </div>
 
