@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+/* ============================================================
+   ÉLANE DESIGN SYSTEM — Design Tokens
+   Source: ÉLANE Website Master Reference, Part 2 §2.5–2.8, Part 3
+   Never invent a color, spacing, or radius outside this list.
+   ============================================================ */
+
+@theme {
+  /* ---- Color: Primary ---- */
+  --color-ivory:          #F7F3EA;   /* Primary Background */
+  --color-warm-white:     #FBF9F4;   /* Warm White Surface */
+  --color-charcoal:       #2B2622;   /* Deep Charcoal — Primary Text / Dark Accent */
+  --color-gold:           #B79B6B;   /* Champagne Gold — Accent (decorative use only) */
+  --color-gold-dark:      #9C8256;   /* Champagne Gold, hover/pressed on buttons */
+  --color-gold-text:      #7A6339;   /* Champagne Gold, darkened to pass WCAG AA on ivory/beige for eyebrow/label text — §2.19 */
+
+  /* ---- Color: Secondary ---- */
+  --color-beige:          #EAE2D2;   /* Soft Beige — Secondary Background */
+  --color-warm-gray:      #A79A85;   /* Warm Gray */
+  --color-border-light:   #DED4BF;   /* Light Border */
+  --color-olive:          #83804F;   /* Muted Olive */
+  --color-burgundy:       #7C4640;   /* Muted Burgundy — Error */
+  --color-emerald:        #59705F;   /* Muted Emerald — Success */
+
+  /* ---- Color: Neutral scale ---- */
+  --color-bg-1:            #F7F3EA;
+  --color-bg-2:            #EAE2D2;
+  --color-bg-3:            #E1D6C0;
+  --color-border:          #DED4BF;
+  --color-muted:           #6D6455;   /* Muted / Secondary Text — tuned to pass AA on ivory (§2.19) */
+  --color-text:            #3B352C;  /* Primary Text */
+  --color-heading:         #221E19;
+  --color-dark-accent:     #2B2622;
+
+  /* ---- Typography ---- */
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-heading: 'Fraunces', ui-serif, Georgia, serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --text-display-xl: 4.5rem;    /* 72 */
+  --text-display-lg: 4rem;      /* 64 */
+  --text-display-md: 3.5rem;    /* 56 */
+  --text-display-sm: 3rem;      /* 48 */
+
+  --text-h1: 3.5rem;   /* 56 */
+  --text-h2: 3rem;     /* 48 */
+  --text-h3: 2.25rem;  /* 36 */
+  --text-h4: 1.75rem;  /* 28 */
+  --text-h5: 1.375rem; /* 22 */
+
+  --text-body-lg: 1.25rem;   /* 20 */
+  --text-body-md: 1.125rem; /* 18 */
+  --text-body-sm: 1rem;     /* 16 */
+  --text-caption: 0.875rem; /* 14 */
+  --text-tiny: 0.75rem;     /* 12 */
+
+  /* ---- Spacing (8px base — approved values only) ---- */
+  --spacing-4:   4px;
+  --spacing-8:   8px;
+  --spacing-12:  12px;
+  --spacing-16:  16px;
+  --spacing-24:  24px;
+  --spacing-32:  32px;
+  --spacing-40:  40px;
+  --spacing-48:  48px;
+  --spacing-64:  64px;
+  --spacing-80:  80px;
+  --spacing-120: 120px;
+  --spacing-160: 160px;
+
+  /* ---- Radius ---- */
+  --radius-btn:  12px;
+  --radius-card: 16px;
+  --radius-img:  20px;
+  --radius-product: 24px;
+
+  /* ---- Shadows (5 levels only) ---- */
+  --shadow-sm:       0 1px 2px rgba(43, 38, 34, 0.04);
+  --shadow-nav:      0 2px 20px rgba(43, 38, 34, 0.05);
+  --shadow-card:     0 8px 30px rgba(43, 38, 34, 0.06);
+  --shadow-dropdown: 0 12px 40px rgba(43, 38, 34, 0.08);
+  --shadow-modal:    0 24px 60px rgba(43, 38, 34, 0.14);
+
+  /* ---- Grid / Layout ---- */
+  --container-max: 1440px;
+  --container-content: 1280px;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--text-body-sm);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    max-width: 70ch;
+  }
+
+  /* Visible focus states — accessibility, Part 2 §2.19 */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .content-container {
+    max-width: var(--container-content);
+    margin-inline: auto;
+    padding-inline: 80px;
+  }
+
+  @media (max-width: 1024px) {
+    .content-container { padding-inline: 48px; }
+  }
+
+  @media (max-width: 640px) {
+    .content-container { padding-inline: 24px; }
+  }
+
+  .section-padding {
+    padding-block: 120px;
+  }
+
+  @media (max-width: 1024px) {
+    .section-padding { padding-block: 80px; }
+  }
+
+  @media (max-width: 640px) {
+    .section-padding { padding-block: 64px; }
+  }
+}
