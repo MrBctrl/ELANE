@@ -10,7 +10,7 @@ export const journal = [
     category: "Style Guide",
     meta: "6 min read",
     date: "14 Aug 2026",
-    image: "/image/journal/capsule-wardrobe.png",
+    image: "/image/journal/capsule-wardrobe.jpg",
     excerpt:
       "Ten pieces, endless outfits. The ÉLANE approach to a wardrobe that works harder so you don't have to think as much.",
     body: [
@@ -27,7 +27,7 @@ export const journal = [
     category: "Craftsmanship",
     meta: "4 min read",
     date: "02 Aug 2026",
-    image: "/image/journal/tailored-trouser.png",
+    image: "/image/journal/tailored-trouser.jpg",
     excerpt:
       "No single piece changes how an outfit reads faster than a trouser that actually fits. Here's what separates tailored from merely purchased.",
     body: [
@@ -43,7 +43,7 @@ export const journal = [
     category: "Colour",
     meta: "5 min read",
     date: "24 Jul 2026",
-    image: "/image/journal/charcoal-outfit.png",
+    image: "/image/journal/charcoal-outfit.jpg",
     excerpt:
       "Softer than black, more serious than grey. Why charcoal has quietly become the most reached-for colour in the ÉLANE studio.",
     body: [
@@ -59,7 +59,7 @@ export const journal = [
     category: "Occasion",
     meta: "7 min read",
     date: "11 Jul 2026",
-    image: "/image/journal/wedding-styling.png",
+    image: "/image/journal/wedding-styling.jpg",
     excerpt:
       "One outfit isn't enough anymore. A guide to dressing across a full wedding weekend without repeating a single look twice.",
     body: [
@@ -75,7 +75,7 @@ export const journal = [
     category: "Style Guide",
     meta: "5 min read",
     date: "29 Jun 2026",
-    image: "/image/journal/office-fashion.png",
+    image: "/image/journal/office-fashion.jpg",
     excerpt:
       "Corporate dress codes don't have to mean disappearing into them. How to keep your point of view intact from 9 to 5.",
     body: [
@@ -91,7 +91,7 @@ export const journal = [
     category: "Craftsmanship",
     meta: "3 min read",
     date: "15 Jun 2026",
-    image: "/image/journal/shoe-care.png",
+    image: "/image/journal/shoe-care.jpg",
     excerpt:
       "Good leather is an investment, not a purchase. The maintenance routine that keeps it looking new for years, not months.",
     body: [
@@ -107,7 +107,7 @@ export const journal = [
     category: "Trends",
     meta: "6 min read",
     date: "03 Jun 2026",
-    image: "/image/journal/autumn-trends.png",
+    image: "/image/journal/autumn-trends.jpg",
     excerpt:
       "Not every trend deserves a place in your wardrobe. A short list of the ones actually worth building around this season.",
     body: [
