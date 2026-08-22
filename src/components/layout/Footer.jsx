@@ -66,7 +66,7 @@ export default function Footer() {
   const handleSubscribe = (e) => {
     e.preventDefault();
     setEmail("");
-    showToast("You're on the list — welcome to ÉLANE.", "success");
+    showToast("You're on the list. Welcome to ÉLANE.", "success");
   };
 
   return (

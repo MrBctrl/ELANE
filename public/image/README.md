@@ -75,6 +75,17 @@ eventually so pages stop looking identical to each other.
 | `shoe-care.png` | Shoe Care: Making Leather Last a Decade |
 | `autumn-trends.png` | Reading the Season: Autumn Trends Worth Keeping |
 
+## `/public/image/products/beauty/` — New: Beauty → Wigs (800×1000, 4:5 portrait)
+| File | Product |
+|---|---|
+| `ivory-silk-press-wig.jpg` | The Ivory Silk Press Wig |
+| `champagne-balayage-bob.jpg` | Champagne Balayage Bob |
+| `charcoal-wave-lace-front.jpg` | The Charcoal Wave Lace Front |
+| `adire-curl-bundle-wig.jpg` | Adire Curl Bundle Wig |
+
+Same 3-shot gallery pattern as the rest of the catalogue, in `/public/image/products/gallery/`:
+`ivory-silk-press-wig-detail.jpg` / `-texture.jpg` / `-on-model.jpg`, and the same for the other 3 wigs.
+
 ## `/public/image/about/`
 | File | Used for |
 |---|---|

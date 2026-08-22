@@ -24,17 +24,17 @@ const FAQ_ITEMS = [
   {
     title: "Do you ship outside Nigeria?",
     content:
-      "Yes — we currently ship across West Africa with delivery in 3–5 business days, and internationally with delivery in 7–14 business days depending on destination.",
+      "Yes, we currently ship across West Africa with delivery in 3-5 business days, and internationally with delivery in 7-14 business days depending on destination.",
   },
   {
     title: "Can I change or cancel my order after placing it?",
     content:
-      "Orders can be changed or cancelled within 2 hours of purchase. After that, the order enters fulfilment and can no longer be edited — but our returns policy still applies once it arrives.",
+      "Orders can be changed or cancelled within 2 hours of purchase. After that, the order enters fulfilment and can no longer be edited, but our returns policy still applies once it arrives.",
   },
   {
     title: "How should I care for hand-dyed adire pieces?",
     content:
-      "Dry clean only, and always store away from direct sunlight — this preserves the depth of the indigo dye far longer than machine washing or air-drying in a bright room would.",
+      "Dry clean only, and always store away from direct sunlight. This preserves the depth of the indigo dye far longer than machine washing or air-drying in a bright room would.",
   },
 ];
 
@@ -48,7 +48,7 @@ function ContactForm() {
     setTimeout(() => {
       setSubmitting(false);
       e.target.reset();
-      showToast("Message sent — we'll reply within one business day.", "success");
+      showToast("Message sent. We'll reply within one business day.", "success");
     }, 800);
   };
 
@@ -114,7 +114,7 @@ function ReturnsInfo() {
       <ol className="flex flex-col gap-16 list-decimal list-inside">
         <li>Request a return from your <a href="/account" className="underline underline-offset-4 text-gold-text">account dashboard</a>, or contact us directly.</li>
         <li>Pack the item in its original packaging with tags attached.</li>
-        <li>Drop off at any partner courier point — a prepaid label is included.</li>
+        <li>Drop off at any partner courier point, a prepaid label is included.</li>
         <li>Refunds are processed within 5 business days of us receiving the return.</li>
       </ol>
     </div>

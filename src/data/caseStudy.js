@@ -49,7 +49,7 @@ export const navigationFlow = [
 export const keyPages = [
   { name: "Collections", to: "/collection", purpose: "Magazine-style browsing, not a catalogue grid." },
   { name: "Product Detail", to: "/product/p1", purpose: "Tells a story before it lists a spec." },
-  { name: "About", to: "/about", purpose: "Builds trust — never opens with \u201cWe started in 2026.\u201d" },
+  { name: "About", to: "/about", purpose: "Builds trust, never opens with \u201cWe started in 2026.\u201d" },
   { name: "Journal", to: "/journal", purpose: "Doubles as the SEO engine and the trust layer." },
   { name: "Cart", to: "/cart", purpose: "Quiet, no fake urgency, no countdown timers." },
   { name: "Checkout", to: "/checkout", purpose: "Four steps. No unnecessary friction." },
@@ -58,7 +58,7 @@ export const keyPages = [
 export const interactionHighlights = [
   {
     title: "Quick View",
-    detail: "Hover any product card, tap the eye icon — buy without ever leaving the grid.",
+    detail: "Hover any product card, tap the eye icon, and buy without ever leaving the grid.",
   },
   {
     title: "Live Cart & Wishlist State",
@@ -66,7 +66,7 @@ export const interactionHighlights = [
   },
   {
     title: "Toast Feedback, Not Alerts",
-    detail: "Every action confirms itself quietly in the corner — never an ugly native browser popup.",
+    detail: "Every action confirms itself quietly in the corner, never an ugly native browser popup.",
   },
   {
     title: "Guided Checkout",

@@ -42,7 +42,7 @@ export default function System() {
         <p className="text-tiny uppercase tracking-[0.14em] text-muted mb-16">Design System Reference</p>
         <h1 id="main-heading" tabIndex="-1" className="font-display text-h1 sm:text-display-sm text-heading">ÉLANE Design System</h1>
         <p className="text-body-md text-muted mt-16 max-w-[60ch]">
-          Living reference — every token and component this site is built from.
+          Living reference, every token and component this site is built from.
           Nothing on any real page should exist outside this library.
         </p>
       </div>

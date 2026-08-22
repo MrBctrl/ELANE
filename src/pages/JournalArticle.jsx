@@ -34,15 +34,13 @@ export default function JournalArticle() {
         </h1>
         <p className="text-caption text-muted mt-16">{article.date} · {article.meta}</p>
 
-        <div className="rounded-img overflow-hidden aspect-[16/10] mt-40 mb-48">
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-full object-cover"
-            loading="lazy"
-            decoding="async"
-          />
-        </div>
+        <img
+          src={article.image}
+          alt={article.title}
+          className="rounded-img w-full h-auto mt-40 mb-48"
+          loading="lazy"
+          decoding="async"
+        />
 
         <div className="flex flex-col gap-24">
           {article.body.map((para, i) => (

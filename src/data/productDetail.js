@@ -16,7 +16,7 @@ export const productDetail = {
     "/image/products/gallery/gallery-on-model.png",
   ],
   story:
-    "Cut from a single length of hand-dyed adire cloth, the wrap coat was built for the in-between moments — leaving the studio at dusk, stepping into a room you want to be remembered in. It drapes rather than fits, moving with you instead of against you.",
+    "Cut from a single length of hand-dyed adire cloth, the wrap coat was built for the in-between moments, like leaving the studio at dusk or stepping into a room you want to be remembered in. It drapes rather than fits, moving with you instead of against you.",
   details: [
     {
       title: "Features",
@@ -47,7 +47,7 @@ export const reviews = [
     name: "Tunde A.",
     rating: 4,
     date: "1 month ago",
-    text: "Beautifully made, runs slightly long — true to the wrap silhouette though.",
+    text: "Beautifully made, runs slightly long, but that's true to the wrap silhouette.",
   },
   {
     name: "Ifeoma B.",

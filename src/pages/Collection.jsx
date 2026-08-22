@@ -92,7 +92,7 @@ export default function Collection() {
   };
 
   const heading = genderFromNav && genderFromNav !== "Unisex" ? genderFromNav : "New Collection";
-  const eyebrow = genderFromNav && genderFromNav !== "Unisex" ? `${genderFromNav} — Autumn Line` : "Autumn Line";
+  const eyebrow = genderFromNav === "Beauty" ? "The Beauty Edit" : genderFromNav && genderFromNav !== "Unisex" ? `${genderFromNav} Autumn Line` : "Autumn Line";
 
   return (
     <div className="bg-ivory">

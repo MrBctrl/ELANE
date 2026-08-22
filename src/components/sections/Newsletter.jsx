@@ -13,7 +13,7 @@ export default function Newsletter() {
     setTimeout(() => {
       setLoading(false);
       setEmail("");
-      showToast("You're on the list — welcome to ÉLANE.", "success");
+      showToast("You're on the list. Welcome to ÉLANE.", "success");
     }, 900);
   };
 

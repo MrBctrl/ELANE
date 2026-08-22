@@ -1,10 +1,10 @@
 import { Checkbox } from "../ui/Input";
 
 const FILTER_GROUPS = [
-  { title: "Gender", options: ["Women", "Men", "Unisex"] },
-  { title: "Category", options: ["Outerwear", "Tops", "Trousers", "Dresses", "Footwear", "Accessories"] },
-  { title: "Colour", options: ["Charcoal", "Ivory", "Champagne Gold", "Olive", "Burgundy"] },
-  { title: "Size", options: ["XS", "S", "M", "L", "XL"] },
+  { title: "Gender", options: ["Women", "Men", "Unisex", "Beauty"] },
+  { title: "Category", options: ["Outerwear", "Tops", "Trousers", "Dresses", "Footwear", "Accessories", "Wigs"] },
+  { title: "Colour", options: ["Charcoal", "Ivory", "Champagne Gold", "Olive", "Burgundy", "Jet Black", "Champagne Blonde", "Charcoal Brown"] },
+  { title: "Size", options: ["XS", "S", "M", "L", "XL", "10\"", "12\"", "14\"", "16\"", "18\"", "20\"", "22\"", "24\"", "26\""] },
   { title: "Occasion", options: ["Everyday", "Office", "Evening", "Wedding"] },
 ];
 

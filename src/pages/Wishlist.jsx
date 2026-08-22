@@ -24,7 +24,7 @@ export default function Wishlist() {
             <div className="w-80 h-80 rounded-full bg-beige mx-auto mb-32" />
             <h3 className="font-heading text-h4 text-heading">Nothing saved yet</h3>
             <p className="text-body-sm text-muted mt-16">
-              Tap the heart on anything that catches your eye — we'll keep it here.
+              Tap the heart on anything that catches your eye. We'll keep it here.
             </p>
             <Button as={Link} to="/collection" variant="primary" className="mt-32">
               Explore the Collection

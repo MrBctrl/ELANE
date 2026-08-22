@@ -111,8 +111,8 @@ function DeliveryStep() {
   return (
     <div className="flex flex-col gap-16">
       {[
-        { label: "Standard Delivery — 3–5 business days", price: "₦3,500" },
-        { label: "Express Delivery — 1–2 business days", price: "₦8,000" },
+        { label: "Standard Delivery (3-5 business days)", price: "₦3,500" },
+        { label: "Express Delivery (1-2 business days)", price: "₦8,000" },
       ].map((opt, i) => (
         <label
           key={opt.label}
@@ -154,7 +154,7 @@ function ReviewStep({ subtotal }) {
       </div>
       <div className="border border-border rounded-card p-24">
         <p className="text-tiny uppercase tracking-[0.08em] text-muted mb-8">Delivery</p>
-        <p>Standard Delivery — 3–5 business days</p>
+        <p>Standard Delivery (3-5 business days)</p>
       </div>
       <div className="border border-border rounded-card p-24">
         <p className="text-tiny uppercase tracking-[0.08em] text-muted mb-8">Payment</p>

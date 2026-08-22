@@ -23,8 +23,8 @@ export default function About() {
           A tailor in Warri once told us that a good coat should feel like a decision, not an accident.
         </h1>
         <p className="text-body-md text-muted mt-32 max-w-[62ch]">
-          That sentence became the reason ÉLANE exists. Not a trend, not a
-          season — a standard. Everything we make is judged against it:
+          That sentence became the reason ÉLANE exists. Not a trend, and not a
+          season, but a standard. Everything we make is judged against it:
           does this feel like a decision someone made about who they are?
         </p>
       </section>
@@ -71,7 +71,7 @@ export default function About() {
               Made with hands that remember
             </h2>
             <p className="text-body-md text-muted mt-24 max-w-[52ch]">
-              We work with artisans across Warri, Abeokuta, and Cotonou —
+              We work with artisans across Warri, Abeokuta, and Cotonou,
               people who learned adire dyeing and tailoring the way it's
               always been learned: standing beside someone who already knew.
               Every ÉLANE piece carries that lineage forward.

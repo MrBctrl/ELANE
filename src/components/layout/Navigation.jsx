@@ -17,7 +17,7 @@ const LINKS = [
   { label: "New Collection", to: "/collection" },
   { label: "Women", to: "/collection?gender=Women" },
   { label: "Men", to: "/collection?gender=Men" },
-  { label: "Beauty", to: "/collection" },
+  { label: "Beauty", to: "/collection?gender=Beauty" },
   { label: "Journal", to: "/journal" },
   { label: "About", to: "/about" },
 ];
@@ -85,8 +85,14 @@ export default function Navigation({ transparentOnTop = true }) {
           <div className="flex items-center justify-between h-[72px] sm:h-[88px]">
             <Link
               to="/"
-              className={`font-display text-h5 tracking-[0.22em] ${textColor}`}
+              className={`flex items-center gap-4 leading-none font-display text-h5 tracking-[0.22em] ${textColor}`}
             >
+              <img
+                src="/image/logo.png"
+                alt=""
+                className="h-22 sm:h-22 w-auto object-contain"
+                onError={(e) => { e.target.style.display = "none"; }}
+              />
               ÉLANE
             </Link>
 
@@ -134,7 +140,15 @@ export default function Navigation({ transparentOnTop = true }) {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-ivory animate-in fade-in duration-300 overflow-y-auto">
           <div className="content-container flex items-center justify-between h-[72px]">
-            <span className="font-display text-h5 tracking-[0.22em] text-charcoal">ÉLANE</span>
+            <span className="flex items-center gap-4 leading-none font-display text-h5 tracking-[0.22em] text-charcoal">
+              <img
+                src="/image/logo.png"
+                alt=""
+                className="h-24 w-auto object-contain"
+                onError={(e) => { e.target.style.display = "none"; }}
+              />
+              ÉLANE
+            </span>
             <button aria-label="Close menu" onClick={() => setMobileOpen(false)}>
               <X size={22} strokeWidth={1.5} className="text-charcoal" />
             </button>

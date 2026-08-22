@@ -52,13 +52,13 @@ export default function Portfolio() {
       {/* Opening */}
       <section className="content-container pt-[112px] sm:pt-[152px] pb-80">
         <p className="text-tiny uppercase tracking-[0.14em] text-gold-text mb-16">
-          Case Study — Nexcraft Creative Studio
+          Case Study: Nexcraft Creative Studio
         </p>
         <h1 id="main-heading" tabIndex="-1" className="font-display text-h1 sm:text-display-md text-heading max-w-[20ch] leading-[1.1]">
           Designing ÉLANE: a digital experience, not just a website
         </h1>
         <p className="text-body-md text-muted mt-32 max-w-[62ch]">
-          A full-stack case study — from emotional architecture and information
+          A full-stack case study, from emotional architecture and information
           design through to a working, responsive, production-ready build.
           Every decision below traces back to a single question: what should
           the visitor feel, not just what should the page contain.
@@ -70,13 +70,13 @@ export default function Portfolio() {
         <div className="content-container max-w-[900px]">
           <SectionLabel number="01" title="Website Vision" />
           <p className="text-body-lg text-charcoal max-w-[50ch]">
-            The site should not primarily sell clothes — it should sell the
+            The site should not primarily sell clothes; it should sell the
             feeling of <em className="not-italic text-gold-text">becoming an ÉLANE customer</em>.
             Products come second. Experience comes first.
           </p>
           <p className="text-body-sm text-muted mt-24 max-w-[60ch]">
             The reframing question that shaped every decision wasn't
-            "what pages do we need?" — it was "what journey should the
+            "what pages do we need?" It was "what journey should the
             visitor experience?" That single shift changes the brief from a
             sitemap exercise into a product-design problem.
           </p>
@@ -89,7 +89,7 @@ export default function Portfolio() {
           <SectionLabel number="02" title="Information Architecture" />
           <p className="text-body-sm text-muted max-w-[60ch] mb-48">
             Rather than a flat list of pages, the site is organized as five
-            connected "worlds" — each with its own purpose and intended
+            connected "worlds", each with its own purpose and intended
             visitor emotion.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-24">
@@ -124,7 +124,7 @@ export default function Portfolio() {
         <div className="content-container">
           <SectionLabel number="04" title="Navigation Structure" />
           <p className="text-body-sm text-muted max-w-[60ch] mb-32">
-            A deep flow, not a flat funnel — every page is designed to
+            A deep flow, not a flat funnel. Every page is designed to
             increase trust, not just move the visitor one step forward.
           </p>
           <FlowRow items={navigationFlow} />
@@ -134,9 +134,9 @@ export default function Portfolio() {
       {/* 5 & 6. Homepage + Key Page Wireframes (live, not static mockups) */}
       <section className="section-padding bg-beige">
         <div className="content-container">
-          <SectionLabel number="05–06" title="Homepage & Key Pages" />
+          <SectionLabel number="05-06" title="Homepage & Key Pages" />
           <p className="text-body-sm text-muted max-w-[60ch] mb-48">
-            Every wireframe below is a live, working page — not a static
+            Every wireframe below is a live, working page, not a static
             mockup. Click through to see the real build.
           </p>
 
@@ -179,7 +179,7 @@ export default function Portfolio() {
         <div className="content-container">
           <SectionLabel number="07" title="UI Direction" />
           <p className="text-body-sm text-muted max-w-[60ch] mb-32">
-            Ivory, champagne gold, and deep charcoal — never pure black or
+            Ivory, champagne gold, and deep charcoal, never pure black or
             white. Fraunces for display type, Inter for body. Full token
             reference lives in the design system.
           </p>
@@ -200,7 +200,7 @@ export default function Portfolio() {
           <div>
             <SectionLabel number="08" title="Mobile Experience" />
             <p className="text-body-sm text-muted max-w-[42ch]">
-              Mobile isn't an afterthought here — filters collapse into a
+              Mobile isn't an afterthought here. Filters collapse into a
               modal instead of pushing the grid down the page, the nav
               compresses to a 72px bar, and every display heading steps down
               in scale instead of overflowing a 375px viewport.
@@ -210,7 +210,7 @@ export default function Portfolio() {
             <SectionLabel number="09" title="Desktop Experience" />
             <p className="text-body-sm text-muted max-w-[42ch]">
               The full 12-column grid and 1280px content width give
-              photography room to breathe — the thing the whole brief keeps
+              photography room to breathe, the thing the whole brief keeps
               coming back to: restraint over decoration.
             </p>
           </div>
@@ -258,17 +258,17 @@ export default function Portfolio() {
         <div className="content-container max-w-[720px]">
           <SectionLabel number="12" title="Reflection" />
           <p className="text-body-md text-charcoal max-w-[58ch]">
-            The hardest part of this project wasn't the visual language —
-            it was resisting decoration. Every luxury-brand instinct says
+            The hardest part of this project wasn't the visual language.
+            It was resisting decoration. Every luxury-brand instinct says
             "add more": more motion, more banners, more urgency. The brief's
             own rules said the opposite, and holding that line through nine
             pages and a full component library is the actual skill on
-            display here — not the champagne-gold color palette.
+            display here, not the champagne-gold color palette.
           </p>
           <p className="text-body-md text-muted mt-24 max-w-[58ch]">
             What this project demonstrates isn't "I can design a fashion
-            website." It's that a business goal — trust, conversion,
-            perceived value — can be traced all the way from a one-sentence
+            website." It's that a business goal (trust, conversion,
+            perceived value) can be traced all the way from a one-sentence
             philosophy statement down to a single button's hover state,
             without losing the thread anywhere in between.
           </p>

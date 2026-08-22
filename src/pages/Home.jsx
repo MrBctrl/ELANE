@@ -11,9 +11,9 @@ import { journal } from "../data/editorial";
 import usePageTitle from "../hooks/usePageTitle";
 
 const categories = [
-  { name: "Women", to: "/collection?gender=Women", image: "/image/home/category-women.png" },
-  { name: "Men", to: "/collection?gender=Men", image: "/image/home/category-men.png" },
-  { name: "Beauty", to: "/collection?gender=Unisex", image: "/image/home/category-beauty.png" },
+  { name: "Women", to: "/collection?gender=Women", image: "/image/home/category-women.jpg" },
+  { name: "Men", to: "/collection?gender=Men", image: "/image/home/category-men.jpg" },
+  { name: "Beauty", to: "/collection?gender=Beauty", image: "/image/home/category-beauty.jpg" },
 ];
 
 export default function Home() {
@@ -154,11 +154,11 @@ export default function Home() {
       <section className="section-padding bg-charcoal">
         <div className="content-container text-center max-w-[720px] mx-auto">
           <p className="font-display text-h4 sm:text-h3 lg:text-h2 text-warm-white leading-snug">
-            &ldquo;ÉLANE doesn&rsquo;t just dress you — it changes how you
+            &ldquo;ÉLANE doesn&rsquo;t just dress you, it changes how you
             carry yourself into a room.&rdquo;
           </p>
           <p className="text-caption text-warm-white/60 mt-32 uppercase tracking-[0.1em]">
-            Amaka O. — Lagos
+            Amaka O., Lagos
           </p>
         </div>
       </section>

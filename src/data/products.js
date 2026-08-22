@@ -147,4 +147,78 @@ export const products = [
       "/image/products/gallery/beige-linen-shirt-dress-on-model.jpg",
     ],
   },
+
+  // --- Beauty — Wigs ---------------------------------------------------
+  // New department: Beauty → Wigs. Same data shape as clothing, but
+  // `sizes` holds lengths instead of clothing sizes, and `colour` uses
+  // real hair-colour names. See Filters.jsx for the matching filter options.
+  {
+    id: "p9",
+    name: "The Ivory Silk Press Wig",
+    category: "Beauty — Wigs",
+    gender: "Beauty",
+    type: "Wigs",
+    colour: "Jet Black",
+    sizes: ["14\"", "18\"", "22\""],
+    occasion: "Everyday",
+    price: "₦95,000",
+    tag: "New",
+    image: "/image/products/beauty/ivory-silk-press-wig.jpg",
+    gallery: [
+      "/image/products/gallery/ivory-silk-press-wig-detail.jpg",
+      "/image/products/gallery/ivory-silk-press-wig-texture.jpg",
+      "/image/products/gallery/ivory-silk-press-wig-on-model.jpg",
+    ],
+  },
+  {
+    id: "p10",
+    name: "Champagne Balayage Bob",
+    category: "Beauty — Wigs",
+    gender: "Beauty",
+    type: "Wigs",
+    colour: "Champagne Blonde",
+    sizes: ["10\"", "12\"", "14\""],
+    occasion: "Office",
+    price: "₦88,000",
+    image: "/image/products/beauty/champagne-balayage-bob.jpg",
+    gallery: [
+      "/image/products/gallery/champagne-balayage-bob-detail.jpg",
+      "/image/products/gallery/champagne-balayage-bob-texture.jpg",
+      "/image/products/gallery/champagne-balayage-bob-on-model.jpg",
+    ],
+  },
+  {
+    id: "p11",
+    name: "The Charcoal Wave Lace Front",
+    category: "Beauty — Wigs",
+    gender: "Beauty",
+    type: "Wigs",
+    colour: "Charcoal Brown",
+    sizes: ["18\"", "22\"", "26\""],
+    occasion: "Evening",
+    price: "₦132,000",
+    image: "/image/products/beauty/charcoal-wave-lace-front.jpg",
+    gallery: [
+      "/image/products/gallery/charcoal-wave-lace-front-detail.jpg",
+      "/image/products/gallery/charcoal-wave-lace-front-texture.jpg",
+      "/image/products/gallery/charcoal-wave-lace-front-on-model.jpg",
+    ],
+  },
+  {
+    id: "p12",
+    name: "Adire Curl Bundle Wig",
+    category: "Beauty — Wigs",
+    gender: "Beauty",
+    type: "Wigs",
+    colour: "Jet Black",
+    sizes: ["16\"", "20\"", "24\""],
+    occasion: "Wedding",
+    price: "₦146,000",
+    image: "/image/products/beauty/adire-curl-bundle-wig.jpg",
+    gallery: [
+      "/image/products/gallery/adire-curl-bundle-wig-detail.jpg",
+      "/image/products/gallery/adire-curl-bundle-wig-texture.jpg",
+      "/image/products/gallery/adire-curl-bundle-wig-on-model.jpg",
+    ],
+  },
 ];
