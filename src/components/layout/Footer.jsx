@@ -35,7 +35,7 @@ const columns = [
       { label: "New Arrivals", to: "/collection" },
       { label: "Women", to: "/collection?gender=Women" },
       { label: "Men", to: "/collection?gender=Men" },
-      { label: "Beauty", to: "/collection?gender=Unisex" },
+      { label: "Beauty", to: "/collection?gender=Beauty" },
       { label: "Lookbook", to: "/journal" },
     ],
   },

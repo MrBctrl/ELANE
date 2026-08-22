@@ -4,7 +4,7 @@ export default function Pagination({ page, total, onChange }) {
   const pages = Array.from({ length: total }, (_, i) => i + 1);
 
   return (
-    <div className="flex items-center justify-center gap-8 mt-64">
+    <div className="flex items-center justify-center flex-wrap gap-8 mt-64">
       <button
         aria-label="Previous page"
         disabled={page === 1}

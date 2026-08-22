@@ -15,7 +15,7 @@ export default function Hero({ image, eyebrow, title, subtitle, ctaLabel = "Disc
       />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/55 via-charcoal/10 to-transparent" />
 
-      <div className="relative h-full content-container flex flex-col justify-end pb-120">
+      <div className="relative h-full content-container flex flex-col justify-end pb-64 sm:pb-80 lg:pb-120">
         {eyebrow && (
           <p className="text-tiny uppercase tracking-[0.2em] text-warm-white/80 mb-16">
             {eyebrow}

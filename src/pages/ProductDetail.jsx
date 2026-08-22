@@ -91,7 +91,7 @@ export default function ProductDetail() {
 
             <div className="mt-40">
               <p className="text-tiny uppercase tracking-[0.08em] text-muted mb-16">Size</p>
-              <div className="flex gap-12">
+              <div className="flex flex-wrap gap-12">
                 {p.sizes.map((s) => (
                   <button
                     key={s}
