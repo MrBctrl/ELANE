@@ -166,7 +166,7 @@ export default function ProductDetail() {
       <section className="section-padding bg-beige">
         <div className="content-container">
           <h2 className="font-heading text-h2 text-heading mb-64 text-center">Complete the Look</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-32">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-32">
             {completeTheLook.map((prod) => (
               <ProductCard key={prod.id} product={prod} />
             ))}
@@ -229,7 +229,7 @@ export default function ProductDetail() {
       <section className="section-padding">
         <div className="content-container">
           <h2 className="font-heading text-h2 text-heading mb-64 text-center">You May Also Like</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-32">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-32">
             {relatedProducts.map((prod) => (
               <ProductCard key={prod.id} product={prod} />
             ))}

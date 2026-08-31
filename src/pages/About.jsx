@@ -20,7 +20,7 @@ export default function About() {
       <section className="content-container pt-[112px] sm:pt-[152px] pb-120">
         <p className="text-tiny uppercase tracking-[0.14em] text-gold-text mb-16">Our Story</p>
         <h1 id="main-heading" tabIndex="-1" className="font-display text-h1 sm:text-display-md text-heading max-w-[18ch] leading-[1.1]">
-          A tailor in Warri once told us that a good coat should feel like a decision, not an accident.
+          A tailor in Abuja once told us that a good coat should feel like a decision, not an accident.
         </h1>
         <p className="text-body-md text-muted mt-32 max-w-[62ch]">
           That sentence became the reason ÉLANE exists. Not a trend, and not a
@@ -71,7 +71,7 @@ export default function About() {
               Made with hands that remember
             </h2>
             <p className="text-body-md text-muted mt-24 max-w-[52ch]">
-              We work with artisans across Warri, Abeokuta, and Cotonou,
+              We work with artisans across in numerous African countries and outward,
               people who learned adire dyeing and tailoring the way it's
               always been learned: standing beside someone who already knew.
               Every ÉLANE piece carries that lineage forward.

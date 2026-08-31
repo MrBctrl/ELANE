@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <Button as={Link} to="/collection" variant="ghost" className="hidden sm:inline-flex">View All</Button>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-32">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-32">
             {products.slice(0, 4).map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <Button as={Link} to="/collection" variant="ghost" className="hidden sm:inline-flex">View All</Button>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-32">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-32">
             {products.slice(4, 8).map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}
@@ -158,7 +158,7 @@ export default function Home() {
             carry yourself into a room.&rdquo;
           </p>
           <p className="text-caption text-warm-white/60 mt-32 uppercase tracking-[0.1em]">
-            Amaka O., Lagos
+            ROSELINE O., Lagos
           </p>
         </div>
       </section>

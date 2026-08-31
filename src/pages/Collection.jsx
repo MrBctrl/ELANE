@@ -153,7 +153,7 @@ export default function Collection() {
             </div>
 
             {pageProducts.length > 0 ? (
-              <div ref={gridTopRef} className="grid grid-cols-2 lg:grid-cols-3 gap-24 sm:gap-32 scroll-mt-[120px]">
+              <div ref={gridTopRef} className="grid grid-cols-2 md:grid-cols-3 gap-24 sm:gap-32 scroll-mt-[120px]">
                 {pageProducts.map((p) => (
                   <ProductCard key={p.id} product={p} />
                 ))}
