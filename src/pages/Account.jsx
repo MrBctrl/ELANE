@@ -29,7 +29,7 @@ function AuthPanel({ onSuccess }) {
   };
 
   return (
-    <div className="max-w-[440px] mx-auto">
+    <div className="max-w-110 mx-auto">
       <div className="flex gap-32 border-b border-border mb-40">
         {["login", "register"].map((t) => (
           <button

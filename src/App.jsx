@@ -16,11 +16,7 @@ import NotFound from "./pages/NotFound";
 import SkipLink from "./components/ui/SkipLink";
 import ScrollToTop from "./components/ui/ScrollToTop";
 
-// React Router keeps ProductDetail mounted when navigating between two
-// different /product/:id URLs (e.g. clicking a "Complete the Look" card),
-// which left all of its local state — selected size, quantity, the gallery's
-// active thumbnail — stuck on whatever the previous product had. Keying on
-// the id forces a clean remount whenever the product actually changes.
+
 function ProductDetailRoute() {
   const { id } = useParams();
   return <ProductDetail key={id} />;

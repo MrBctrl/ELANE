@@ -11,7 +11,7 @@ export default function Hero({ image, eyebrow, title, subtitle, ctaLabel = "Disc
       <img
         src={image}
         alt=""
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-[60%_10%] sm:object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/55 via-charcoal/10 to-transparent" />
 

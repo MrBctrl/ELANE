@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Full Screen Hero */}
       <Hero
-        image="/image/home/hero-banner.jpg"
+        image="/image/home/Hero2.png"
         eyebrow="The New Collection"
         title="Quiet luxury, worn with intention."
         subtitle="Tailoring rooted in African craftsmanship, made for those who choose confidence over noise."

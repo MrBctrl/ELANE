@@ -85,7 +85,7 @@ export default function Navigation({ transparentOnTop = true }) {
           <div className="flex items-center justify-between h-[72px] sm:h-[88px]">
             <Link
               to="/"
-              className={`flex items-center gap-4 leading-none font-display text-h5 tracking-[0.22em] ${textColor}`}
+              className={`flex items-center gap-4 leading-none font-display text-h5 tracking-[0.22em] -ml-8 sm:ml-0 ${textColor}`}
             >
               <img
                 src="/image/logo.png"
